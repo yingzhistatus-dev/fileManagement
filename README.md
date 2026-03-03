@@ -120,6 +120,7 @@ fileManagement/
 
 ## 6. 配置说明
 ### 配置说明
+```
 WANWU_BASE_URL=你的万悟接口地址
 WANWU_API_KEY=你的万悟API_KEY
 WANWU_KNOWLEDGE_BASE_ID=你的已有知识库ID
@@ -131,7 +132,7 @@ WANWU_CLIENT_ID=你的X-Client-Id
 
 DOUBAO_API_KEY=你的豆包API_KEY
 DOUBAO_MODEL=你的豆包模型名称
-
+```
 ## 7. 安装与启动
 
 ### 7.1 启动后端
@@ -165,3 +166,4 @@ npm run dev
 ```
 http://localhost:5173
 ```
+
