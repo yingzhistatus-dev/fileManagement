@@ -1,0 +1,78 @@
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .table-wrapper {
+    overflow-x: auto;
+  }
+  
+  .result-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 1260px;
+  }
+  
+  .result-table th,
+  .result-table td {
+    text-align: left;
+    padding: 16px 14px;
+    border-bottom: 1px solid #edf0f2;
+    font-size: 14px;
+    color: #374151;
+    vertical-align: middle;
+  }
+  
+  .result-table th {
+    color: #475569;
+    font-weight: 600;
+    background: #fafafa;
+  }
+  
+  .checkbox-col {
+    width: 54px;
+    text-align: center !important;
+  }
+  
+  .checkbox-col input {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+  
+  .file-name-cell {
+    max-width: 320px;
+    word-break: break-all;
+  }
+  
+  .status-tag {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 13px;
+    background: #f3f4f6;
+    color: #4b5563;
+  }
+  
+  .status-tag.success {
+    background: #ecfdf3;
+    color: #15803d;
+  }
+  
+  .status-tag.pending {
+    background: #eff6ff;
+    color: #1d4ed8;
+  }
+  
+  .status-tag.fail {
+    background: #fef2f2;
+    color: #dc2626;
+  }
+  
+  .op-group {
+    display: flex;
+    gap: 12px;
+    flex-wrap: nowrap;
+  }
